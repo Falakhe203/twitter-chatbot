@@ -26,11 +26,3 @@ Step 3: Update the script with your consumer_key and consumer_secret
 1. The script checks if twitter_tokens.json exists to reuse the saved tokens. If not, it initates the OAuth flow to the access tokens.
 2. Follow the printed authorization URL, authorize the app, and input the provided PIN when prompted.
 3. The tokens will be saved for future use.
-
-#### Running the Bot
-
-Simply run the script:
-    
-    python twitter-chatbot.py
-
-The bot will run indefinitely, posting a new code joke every week.
